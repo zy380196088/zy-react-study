@@ -5,12 +5,11 @@ import {
   Button, Input
 } from 'antd';
 
-import Header from './components/Header/index'
-
 import zhCN from 'antd/es/locale/zh_CN';
 import moment from 'moment';
 import 'antd/dist/antd.css'
 import './App.css';
+import Admin from './admin'
 
 moment.locale('zh-cn');
 
@@ -18,7 +17,7 @@ moment.locale('zh-cn');
 function App() {
   return (
     <div className="App">
-      
+      <Admin></Admin>
     </div>
   );
 }

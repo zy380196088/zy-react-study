@@ -1,12 +1,9 @@
 import React from 'react';
 import { Row } from 'antd';
-export default class Admin extends React.Component{
+export default class LeftNav extends React.Component{
   render(){
     return (
-      <Row>
-        <Col span='3'></Col>
-        <Col span='21'></Col>
-      </Row>
+      <div>This is LeftNav</div>
     )
   }
 }

@@ -1,10 +1,9 @@
 import React from 'react';
-
+import { Row } from 'antd';
 export default class Footer extends React.Component {
   render(){
-    return(
-      <div>Footer</div>
+    return (
+      <div>This is Footer</div>
     )
   }
 }
-
